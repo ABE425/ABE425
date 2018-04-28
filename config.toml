@@ -1,0 +1,44 @@
+baseURL = "http://ABE425.example.org/"
+languageCode = "en-us"
+title = "ABE425: Engineering Measurement Systems"
+theme = "bootie-docs"
+
+[params]
+  description = "  "
+  highlightStyle = "github"
+  noCategoryLink = true
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 100
+
+[[menu.main]]
+  name = "HW"
+  url = "/hw"
+  weight = 200
+
+[[menu.main]]
+  name = "ICE"
+  url = "/ices"
+  weight = 210
+
+[[menu.main]]
+  name = "Lab"
+  url = "/labs"
+  weight = 220
+
+[[menu.main]]
+  name = "Lectures"
+  url = "/lectures"
+  weight = 230
+
+[[menu.main]]
+  name = "Gradebook"
+  url = "/gradebook"
+  weight = 240
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources"
+  weight = 300
