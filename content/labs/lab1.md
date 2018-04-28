@@ -8,7 +8,7 @@ Lab date: 01/19/2018
 
 Due date: 01/26/2018
 
-####Lab Objectives:  
+#### Lab Objectives:  
 1. To understand how to read resistor values using the color coding system
 2. To measure the true value of resistors using a handheld Digital Multimeter (DMM)
 3. To build a simple resistor circuit using a standard breadboard
