@@ -6,9 +6,9 @@ draft: true
 
 ## Frequency Doman Analysis of First Order Systems (Passive Filters)
 
-Lab date: 02/02/2018
+Lab date: 02/09/2018
 
-Due date: 02/09/2018
+Due date: 02/16/2018
 
 
 #### Lab Objectives:  
