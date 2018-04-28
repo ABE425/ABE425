@@ -18,8 +18,8 @@ Due date: 01/26/2018
 7. To understand why measuring current can be dangerous, since the internal resistance of the meter in that setting is zero, and shortcuts can be easily made.
 8. To understand and verify the three basic circuit laws being i) Ohm’s Law, ii) Kirchoﬀ’s Voltage Law (KVL) and iii) Kirchoﬀ’s Current Law (KCL)
 
-Link:
+Lab File:
 
-Submission:
+Submission: [Submission link]()
 
-Link to Resource(s):
+Link to Resource(s): [LaTex Guide](../resources/LaTex_Guide)
