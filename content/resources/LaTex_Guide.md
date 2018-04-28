@@ -25,8 +25,8 @@ The [h] is optional, and you may notice it is never present in any of the labs. 
 
 |Function | Description |
 | ------- | ----------- |
-| \\\\ | Acts as an `enter` button <br> ends the line/goes to a new line of text. |
-|$x^2$|The dollar signs are used to convey equation formatting for the content between them when typing in general text (like within a paragraph, for example). <br> The example given here would compile as x2. You can write whole equations between the $ as well.|
+| \\\\ | Acts as an `enter` button <br> Ends the line/goes to a new line of text. |
+|$x^2$|The dollar signs are used to convey equation formatting for the content between them when typing in general text (like within a paragraph, for example). <br> The example given here would compile as x^2. You can write whole equations between the $ as well.|
 |\begin{equation} <br> \end{equation}|Any line you write between these two will automatically take the format of an equation and be centered in the middle of the page. <br> Only one line of equation/math can be written here (a \\\\ won't create another line).|
 |\begin{lstlisting} <br> \end{lstlisting}|Formats text into a box with numbered line in ABE 425 labs, this is how MatLab code is generally formatted into the LaTex document. <br> There's no need to use functions like \\\\ or any LaTex math functions for formatting in here. <br> It will show exactly what you type similar to how it shows up on MatLab.|
 |\left[ <br> \right]|For formatting purposes, this will enlarge the parentheses of choice (in this case [ ]) to fit the equation(s) inside.|
