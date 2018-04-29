@@ -21,30 +21,23 @@ The procedure of the Thevenin Equivalent method is as follows:
 
 As you will see in the three worked examples, you need to determine the equations for the Open Voltage, Equivalent Resistance and the Short Current. To get numerical values, we need to write a simple MatLab program. This is much faster than doing it on paper, and the computer does not make any mistakes. First we need a function called 'parallel' so we can calculate the equivalent value of two resistors in parallel: Copy these two lines in MatLab's editor and save as 'parallel.m'. As you can see it simply takes two resistors and applies the 'product over sum' rule. Now you can use this function in your homework.
 
-<p>function Rout = parallel(R1, R2)</p>  
-<p>Rout = R1*R2/(R1 + R2);</p>
+```
+function Rout = parallel(R1, R2)  
+Rout = R1*R2/(R1 + R2);
+```
 
+![Figure1](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG)
 
+**work example 1**  
+The figure shows the circuit. It is easy to see that the two resistors make up a voltage divider. Since the Open Voltage is the voltage across resistor R_2, it is now the resistor itself, divided by the sum of the two resistors, and multiplied by the voltage drop across both of them (note that the voltage on the bottom end is zero (ground symbol) but this is not always the case!)
 
+To determine the equivalent resistance, you replace the voltage source by its internal resistance (which is zero). Now it is easy to recognize that the equivalent resistance is the parallel circuit made up by the two resistors.
 
- ![Figure1](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG)shows the circuit. It is easy to see that the two resistors make up a voltage divider. Since the Open Voltage is the voltage across resistor R_2, it is now the resistor itself, divided by the sum of the two resistors, and multiplied by the voltage drop across both of them (note that the voltage on the bottom end is zero (ground symbol) but this is not always the case!)
+To calculate $i_{short}$ you imagine point a,b being connected and the current flowing from a to b is the $i_{short}$). If you connect a wire in parallel with R_2, R_2 no longer plays a role (the resistance of any resistor in parallel with a zero resistance is that zero resistance.) Now the short current i_{short} is the voltage drop across R_1 divided by R_1 itself:
 
-To determine the equivalent resistance, you replace the voltage source by its internal resistance (which is zero). Now it is easy to recognize that the equivalent resistance is the parallel circuit made up by the two resistors.\\
-
-To calculate $i_{short}$ you imagine point a,b being connected and the current flowing from a to b is the $i_{short}$). If you connect a wire in parallel with $R_2$, $R_2$ no longer plays a role (the resistance of any resistor in parallel with a zero resistance is that zero resistance.) Now the short current $i_{short}$ is the voltage drop across $R_1$ divided by $R_1$ itself:
-
-\begin{figure}
-\centering
-\includegraphics[width=0.4\linewidth]{HW_Thevenin1}
-\caption{This circuit has a single source $U$, and two resistors $R_1$ and $R_2$. Note that this is a voltage divider circuit.}
-\label{fig:HW_Thevenin1}
-\end{figure}
-
-\begin{align}\label{Eqn:HW_Thevenin1}
-U_{open} &= \dfrac{R_2}{R_2+R_1} U \\
-R_{eq}  &= \dfrac{R_2 R_1}{R_2 + R_1} \\
-i_{short} &=  \dfrac{U}{R_1}\\
-\end{align}
+\[ U_{open} &= \dfrac{R_2}{R_2+R_1} U \]
+\[R_{eq}  &= \dfrac{R_2 R_1}{R_2 + R_1} \]
+\[i_{short} &=  \dfrac{U}{R_1}\]
 
 Check:
 
