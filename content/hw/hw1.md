@@ -9,7 +9,7 @@ Released: 2018-01-23
 Due: 2018-01-30
 
 
-**Description**
+**Description**  
 This homework contains three worked examples of increasing complexity, and three examples that you need to do. Although the examples all have numbers, you need to submit equations. Many students do not like homeworks without numbers, but the reality is that you need to have equations before you can plug in numbers anyway, so asking for numbers is only more work. In fact, the best way to solve these kinds of problems is to first write out the equations and then write a simple MatLab script to do the calculations!
 
 The procedure of the Thevenin Equivalent method is as follows:
@@ -38,7 +38,7 @@ To calculate i_{short} you imagine point a,b being connected and the current flo
 ```
 U_open= R_2\(R_2+R_1)U
 R_eq  = (R_2 R_1)\(R_2 + R_1)
-i_short=  U\R_1
+i_short= U\R_1
 ```
 
 Check:
@@ -47,7 +47,7 @@ Check:
 U_open = R_eq * i_short = (R_2 R_1)\(R_2 + R_1) * U\R_1 = R_2\(R_2+R_1)*U
 ```
 
-Now you write a program (which calls the 'parallel' function) as follows: Remember that every time you want to put two resistors $R_1, R_2$ in parallel simply call 'parallel(R1,R2)'.
+Now you write a program (which calls the 'parallel' function) as follows: Remember that every time you want to put two resistors R_1, R_2 in parallel simply call 'parallel(R1,R2)'.
 
 The listing of the program for worked example 1 is given here:
 
@@ -71,7 +71,7 @@ The output of this program is:
 
 ```
 Uopen 			=    8
-Req 			=    6.6667
+Req 			  =    6.6667
 i_short 		=    1.2000
 
 i_short_check 	=    1.2000
@@ -89,9 +89,9 @@ To calculate i_short you need to recognize that this becomes a current divider (
 
 
 ```
-U_open = i R_1  
-R_eq  = R_1 + R_2  
-i_short =R_1\(R_1+R_2)*i  
+U_open  = i R_1  
+R_eq    = R_1 + R_2  
+i_short = R_1\(R_1+R_2)*i  
 ```
 
 Check:
@@ -122,9 +122,9 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen= 15
-Req= 30
-i_short= 0.5000
+Uopen         = 15
+Req           = 30
+i_short       = 0.5000
 i_short_check = 0.5000
 ```
 
@@ -146,9 +146,9 @@ The equivalent resistance is also simple, because any meter hooked up to point a
 The short current is now the current flow through R_2 and R_3 which is equal to the voltage source divided by the sum of resistors  R_2 and R_3:
 
 ```
-U_open= U
-R_eq  = R_2 + R_3  
-i_short = U\(R_2+R_3)  
+U_open   = U
+R_eq     = R_2 + R_3  
+i_short  = U\(R_2+R_3)  
 ```
 
 Check:
@@ -167,9 +167,9 @@ The equivalent resistance is equal to the one we found before, it is not a funct
 The short current can be calculated by recognizing the current divider, and therefore the current flowing through resistor R_3 (which is i_short) is now equal to the opposite resistor R_2 divided by the sum of the resistors that make up the current divider R_2 + R_3  times the current running into them which is i.
 
 ```
-U_open = i R_2  
-R_eq  = R_2 + R_3
-i_short=R_2\(R_2+R_3)*i
+U_open   = i R_2  
+R_eq     = R_2 + R_3
+i_short  = R_2\(R_2+R_3)*i
 ```
 
 Check:
@@ -181,9 +181,9 @@ U_open = R_eq * i_short =(R_2 + R_3)*R_2\(R_2+R_3)*i = i*R_2
 Since we have split the original circuit into two parts, we need to add the influences of the voltage and current source separately as follows (note that the equivalent resistance $R_{eq}$ remains unaffected):
 
 ```
-U_open= U + i*R_2  
-R_eq= R_2 + R_3  
-i_short=U*R_2+R_3 +R_2\(R_2+R_3)*i  
+U_open  = U + i*R_2  
+R_eq    = R_2 + R_3  
+i_short = U*R_2+R_3 +R_2\(R_2+R_3)*i  
 ```
 
 Check:
@@ -217,11 +217,10 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen 			=    42
-Req 			=    50
-i_short 		=    0.8400
-
-i_short_check 	=    0.8400
+Uopen 		  	=    42
+Req 			    =    50
+i_short 		  =    0.8400
+i_short_check =    0.8400
 ```
 
 **Your homework starts here.**
@@ -237,8 +236,8 @@ _To submit this homework, you need to continue this document, and solve the prob
 This circuit has two sources, U_1 and U_2. If you do not like the positive sign of source U_2 at the bottom, simply put it at the top, and write yourself a note that its value is U_2' = -U_2.
 
 ```
-U_open =  
-R_eq   =  
+U_open  =  
+R_eq    =  
 i_short =  
 
 ```
@@ -266,8 +265,8 @@ This circuit has a voltage and a current source, so you need to evaluate the inf
 \end{figure}
 
 ```
-U_open =  
-R_eq  =  
+U_open  =  
+R_eq    =  
 i_short =  
 
 ```
@@ -288,8 +287,8 @@ The output of this program is:
 This circuit has two sources, use the superposition principle.
 
 ```
-U_open =  
-R_eq  =  
+U_open  =  
+R_eq    =  
 i_short =  
 ```
 
@@ -305,10 +304,11 @@ The listing of the program for circuit 6 is given here:
 The output of this program is:
 
 
-
+```
 Link: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[submmision here]()
+Submission:[SUBMIT YOUR HOMEWORK HERE]()
 
 Link to resource:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)
                 [LaTex_Guide](../../resources/LaTex_Guide.md)
+```
