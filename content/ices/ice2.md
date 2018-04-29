@@ -18,8 +18,7 @@ Submission: [Submission link](?)
 ## In-Class Exercise: English Unit System Derived.
 
 STUDENT NAME:  
-DATE：January 13, 2018
-
+DATE: January 13, 2018
 
 Given is the modern (not yet completed) metric system where the Ampere (which was not realizable
 anyway) is replaced by the standard for Volt (via the Josephson junction) and the Ohm (via the
