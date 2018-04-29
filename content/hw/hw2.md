@@ -17,43 +17,44 @@ This is why you need to derive Euler's formula, afterward you may still think it
 
 **Euler's formula is given as:**
 
-\( \begin{equation}
-e^{jt} = \cos(t) + j \sin(t)
-\end{equation} \)
+e^(jt) = cos(t) + j sin(t)
+
 
 **The Taylor series approximation is given as:**
 
 ![figure]()
 
-The MacLaurin series approximation is a Taylor series approximation where \[ bar{x} = 0 \]
+**The MacLaurin series approximation is a Taylor series approximation** where
+xbar = 0
+![figure2]()
 
 \( f(x) =f(0) + \dfrac{f'(0)}{1!}x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + h.o.t.  =\sum_{n=0}^{\infty}\dfrac{f(0)^{(n)}x^n}{n!}\)
 
-Exercise 1: Express $e^t$ in a MacLaurin series.
+Exercise 1: Express e^t in a MacLaurin series.
 
-Exercise 2: Show in the MacLaurin series of $e^t$ that the derivative of  $e^t$ =  $e^t$, in other words $e^t$ is its own derivative.
-
-
-Exercise 3: Express $e^1$ in a MacLaurin series. This is the number $e$.
+Exercise 2: Show in the MacLaurin series of $e^t$ that the derivative of  e^t =  e^t, in other words $e^t$ is its own derivative.
 
 
-Exercise 4: Express $e^{jt}$  in a MacLaurin series.
+Exercise 3: Express e^1 in a MacLaurin series. This is the number $e$.
 
 
-Exercise 5: Express $\sin(t)$ in a MacLaurin series, write it out here.
+Exercise 4: Express e^(jt)  in a MacLaurin series.
 
 
-Exercise 6: Express $\cos(t)$ in a MacLaurin series, write it out here.
+Exercise 5: Express sin(t) in a MacLaurin series, write it out here.
 
 
-Exercise 7: Add the approximations of cosine and sine and multiply every term in the sine approximation by $j$ to get the MacLaurin approximation of $\cos(t) + j \sin(t)$. Compare this series with the MacLaurin approximation of $e^{jt}$.
+Exercise 6: Express cos(t) in a MacLaurin series, write it out here.
+
+
+Exercise 7: Add the approximations of cosine and sine and multiply every term in the sine approximation by $j$ to get the MacLaurin approximation of cos(t) + j sin(t). Compare this series with the MacLaurin approximation of e^(jt).
 
 
 
 
-**Link**: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [Visit the HM2](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
 Submission:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)
+Link to resource:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
                 [LaTex_Guide](../../resources/LaTex_Guide.md)
