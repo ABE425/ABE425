@@ -304,11 +304,10 @@ The listing of the program for circuit 6 is given here:
 The output of this program is:
 
 
-```
-Link: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+
+**Link**: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
 Submission:[SUBMIT YOUR HOMEWORK HERE]()
 
 Link to resource:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)
                 [LaTex_Guide](../../resources/LaTex_Guide.md)
-```
