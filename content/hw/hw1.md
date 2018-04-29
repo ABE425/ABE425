@@ -14,20 +14,20 @@ This homework contains three worked examples of increasing complexity, and three
 
 The procedure of the Thevenin Equivalent method is as follows:
 
-1.Determine the Open Voltage across a,b (note ground symbol)
-2.With all sources replaced by their internal resistance, calculate the circuit's Equivalent Resistance that a ohm meter would "see" at a,b.
-3.Determine the circuit's short current through a-b by drawing in a direct connection between a,b.
-4.Verify your answer using Ohm's Law: U_open = R_eq * i_short
+1.Determine the Open Voltage across a,b (note ground symbol)  
+2.With all sources replaced by their internal resistance, calculate the circuit's Equivalent Resistance that a ohm meter would "see" at a,b.  
+3.Determine the circuit's short current through a-b by drawing in a direct connection between a,b.  
+4.Verify your answer using Ohm's Law: U_open = R_eq * i_short  
 
 As you will see in the three worked examples, you need to determine the equations for the Open Voltage, Equivalent Resistance and the Short Current. To get numerical values, we need to write a simple MatLab program. This is much faster than doing it on paper, and the computer does not make any mistakes. First we need a function called 'parallel' so we can calculate the equivalent value of two resistors in parallel: Copy these two lines in MatLab's editor and save as 'parallel.m'. As you can see it simply takes two resistors and applies the 'product over sum' rule. Now you can use this function in your homework.
 
 <p>function Rout = parallel(R1, R2)</p>  
->Rout = R1*R2/(R1 + R2);
+<p>Rout = R1*R2/(R1 + R2);</p>
 
 
 
 
- ![Figure1](data/ABE425HMK/HW_TheveninEquivalents /HW_Thevenin1.PNG)shows the circuit. It is easy to see that the two resistors make up a voltage divider. Since the Open Voltage is the voltage across resistor R_2, it is now the resistor itself, divided by the sum of the two resistors, and multiplied by the voltage drop across both of them (note that the voltage on the bottom end is zero (ground symbol) but this is not always the case!)
+ ![Figure1](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG)shows the circuit. It is easy to see that the two resistors make up a voltage divider. Since the Open Voltage is the voltage across resistor R_2, it is now the resistor itself, divided by the sum of the two resistors, and multiplied by the voltage drop across both of them (note that the voltage on the bottom end is zero (ground symbol) but this is not always the case!)
 
 To determine the equivalent resistance, you replace the voltage source by its internal resistance (which is zero). Now it is easy to recognize that the equivalent resistance is the parallel circuit made up by the two resistors.\\
 
