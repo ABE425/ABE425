@@ -8,7 +8,7 @@ Released: 2018-01-23
 
 Due: 2018-01-30
 
-Description:
+
 
 This homework contains three worked examples of increasing complexity, and three examples that you need to do. Although the examples all have numbers, you need to submit equations. Many students do not like homeworks without numbers, but the reality is that you need to have equations before you can plug in numbers anyway, so asking for numbers is only more work. In fact, the best way to solve these kinds of problems is to first write out the equations and then write a simple MatLab script to do the calculations!
 
@@ -21,7 +21,7 @@ The procedure of the Thevenin Equivalent method is as follows:
 
 As you will see in the three worked examples, you need to determine the equations for the Open Voltage, Equivalent Resistance and the Short Current. To get numerical values, we need to write a simple MatLab program. This is much faster than doing it on paper, and the computer does not make any mistakes. First we need a function called 'parallel' so we can calculate the equivalent value of two resistors in parallel: Copy these two lines in MatLab's editor and save as 'parallel.m'. As you can see it simply takes two resistors and applies the 'product over sum' rule. Now you can use this function in your homework.
 
->function Rout = parallel(R1, R2)
+<p>function Rout = parallel(R1, R2)</p>  
 >Rout = R1*R2/(R1 + R2);
 
 
@@ -371,7 +371,7 @@ The output of this program is:
 
 \end{document}
 
-Link: [Visit the HM1]()
+Link: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
 Submission:[submmision here]()
 
