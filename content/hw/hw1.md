@@ -9,7 +9,7 @@ Released: 2018-01-23
 Due: 2018-01-30
 
 
-
+**Description**
 This homework contains three worked examples of increasing complexity, and three examples that you need to do. Although the examples all have numbers, you need to submit equations. Many students do not like homeworks without numbers, but the reality is that you need to have equations before you can plug in numbers anyway, so asking for numbers is only more work. In fact, the best way to solve these kinds of problems is to first write out the equations and then write a simple MatLab script to do the calculations!
 
 The procedure of the Thevenin Equivalent method is as follows:
