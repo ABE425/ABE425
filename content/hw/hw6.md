@@ -11,7 +11,7 @@ Due: 2019-03-5
 **NAME:**  
 **HW: RMS value of a triangular signal.**
 
-#Description
+**Description**
 
 ![figure](https://github.com/ABE425/data/blob/lab_1/ABE425HMK/HW_RMS_Triangle/TriangularWaveSignal.png)
 
@@ -24,6 +24,6 @@ You need to show **ALL** your steps and write them in LaTex functionality (copy 
 
 **Link**: [Visit the HM6](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
