@@ -11,10 +11,10 @@ Due: 2018-01-30
 **NAME:**  
 **HW:Thevenin Equivalents.**
 
-#Description  
+#Description#  
 This homework contains three worked examples of increasing complexity, and three examples that you need to do. Although the examples all have numbers, you need to submit equations. Many students do not like homeworks without numbers, but the reality is that you need to have equations before you can plug in numbers anyway, so asking for numbers is only more work. In fact, the best way to solve these kinds of problems is to first write out the equations and then write a simple MatLab script to do the calculations!
 
-#Procedure
+#Procedure#
 
 The procedure of the Thevenin Equivalent method is as follows:
 
@@ -32,7 +32,7 @@ Rout = R1*R2/(R1 + R2);
 
 ![Figure1](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG)
 
-#Worked example 1  
+#Worked example 1#  
 [figure1][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG]shows the circuit. It is easy to see that the two resistors make up a voltage divider. Since the Open Voltage is the voltage across resistor R_2, it is now the resistor itself, divided by the sum of the two resistors, and multiplied by the voltage drop across both of them (note that the voltage on the bottom end is zero (ground symbol) but this is not always the case!)
 
 To determine the equivalent resistance, you replace the voltage source by its internal resistance (which is zero). Now it is easy to recognize that the equivalent resistance is the parallel circuit made up by the two resistors.
@@ -74,15 +74,15 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen 			=    8
-Req 			  =    6.6667
-i_short 		=    1.2000
+Uopen 			    =    8
+Req 			      =    6.6667
+i_short 		    =    1.2000
 
 i_short_check 	=    1.2000
 ```
 
 
-#Worked example2
+#Worked example2#
 
 ![Figure2](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin2.PNG)  
 [Figure2][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin2.PNG] shows a circuit that contains a single current source. To calculate the Open Voltage, you have to recognize that there is no current flowing through resistor ```R_2``` and therefore there is no voltage **DROP** across ```R_2```, in other words, the voltage left and right of the resistor are the same. The voltage drop across ```R_1``` is according to Ohm's law equal to ```i*R_1```, which is then also the voltage at point a.
@@ -133,7 +133,7 @@ i_short_check  = 0.5000
 ```
 
 
-#Worked example 3
+#Worked example 3#
 ![Figure3](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin3.PNG)  
 [Figure3][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin3.PNG] shows the circuit. Here is where things get a litte more difficult, since we now have two sources, a voltage source and a current source. The trick is to use the super position principle to determine the Thevenin equivalent. What this boils down to is that during the calculation of U_open, you calculate the influence of the voltage source (while temporarily replacing the current source by its internal resistance, which is infinite) and then you do the opposite, you calculate the influence of the current source (while temporarily replacing the voltage source by its internal resistance, which is zero). Then you simply add the two influences. You do the exact same thing for the short current i_short. However you do not need to do this for the equivalent resistance, since it is not a source; You calculate the equivalent resistance by replacing both sources by their internal resistance.
 
@@ -227,7 +227,7 @@ i_short 		  =    0.8400
 i_short_check =    0.8400
 ```
 
-#**Your homework starts here.**
+#**Your homework starts here.**#
 
 Figures[6][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin4.PNG],[7][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin5.PNG],[8][https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin6.PNG] show three circuits, all of them having dual sources. Use the superposition principle to calculate the Thevenin equivalents. You do not have to insert the split circuits, but you are urged to do this on a piece of paper, and don't forget to add the influence of the separate sources at the end.
 
@@ -304,7 +304,7 @@ U_open = R_eq * i_short =
 
 **Link**: [Visit the HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
+**Link to resource**:[MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
                 [LaTex_Guide](../../resources/LaTex_Guide.md)
