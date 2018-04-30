@@ -21,9 +21,7 @@ DATE: December 28, 2018
 
 In the chapter Mathematics Recapitulation, we derive Taylor’s rule. At some point in the derivation, we make a rather large leap, it is your job to fill in how the top equation became the bottom equation.
 
-\begin equation
-f({a}+h)\approx f({a}) + \int_{a}^{a+h}[f'({a}+(x-{a})f''(a)] dx
-\end equation
+$$ f({a}+h)\approx f({a}) + \int_{a}^{a+h}[f'({a}+(x-{a})f''(a)] dx $$
 
 Since f(a) and its derivatives are constant values, we can integrate this equation with respect to x leading to:
 
