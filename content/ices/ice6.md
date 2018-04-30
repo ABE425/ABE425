@@ -4,16 +4,18 @@ date: 2018-04-17T13:05:12-05:00
 draft: true
 ---
 
-Released:2018-04-05
+Released: 2018-04-05
 
-Due:In class
+Due: In class
 
-Description:
+```
+Description
+
 This is In-Class Exercise 6. Read the instruction and answer the questions below.This assignment is to be submitted it in class.
+```
+_Link:_ [ICE 6](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
 
-Link: [ICE 6](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
-
-Submission: [Submission link](?)
+_Submission:_ [Submission link](?)
 
 ## In-Class Exercise: High Pass Filter.
 ```
