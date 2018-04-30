@@ -56,16 +56,5 @@ The following lines of code are plotting commands
 >>hold on                               retains current figure when adding new stuff
 >>hold off                              restores to default (no hold on)
 ```
-Conditions and Loops
-|Loops | Description |
-| ------- | ----------- |
-| for i= 1:10
-:
-procedure           
-end |  Iterates over procedure incrementing i from 1 to 10 by 1 |
-| while (criteria)
-:
-procedure
-: 
-end
-|Iterates over procedure as long as criteria is true |
+
+[See more information here](https://www.mathworks.com/help/matlab/)
