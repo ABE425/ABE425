@@ -11,16 +11,16 @@ Due: 2019-03-19
 **NAME:**
 **HW: Controller Area Network (CAN) data analysis.**
 
-#Description
+**Description**  
 
 The objective of this homework is to familiarize students with CAN data and analyze them using Excel, MatLab and Google Earth.
 
-#Introduction
+**Introduction**  
 Modern vehicles including cars, trucks/buses as well as off-road equipment have a computer network that serves to manage the drive train, interaction with the operator, as well as to communicate with implements. We can tap into this computer network and record a host of messages that contain data that we are interested in during operations.
 
 The data we are going to analyze were collected during a tillage operation with a John Deere tractor in spring 2016 using a Vector CAN data interface. The Vector unit was programmed to record data such as GPS location, Engine torque, RPM, as well as Wheel Speed, Ground Speed and Fuel consumption. Vector provides a tool that allow us to translate the proprietary Vector (xlx) format into an Excel readable format. The identifier and the data are in hexadecimal format, so we need to convert them to decimal format to extract the GPS coordinates in Latitude/ Longitude form. The Excel file that contains our data has the filename 60519009.xls. We are going to open this file in Excel, convert the strings into cells using Excel's text to column function, then we are going to extract only GPS data, we will convert them to decimal format, and copy and paste all our coordinates into a text file (either using Notepad or MatLab's editor). We will then use a small MatLab program that translates these coordinates into a kml file. This file will be read by Google Earth which will show our GPS locations graphically.
 
-#Procedures
+**Procedures**  
 The standard CAN message that shows the GPS location of a vehicle, is as follows: Note that the identifier is given in hexadecimal format. You can always convert the hexadecimal number into a decimal number, but the hexadecimal notation is far more compact and elegant. As you can see from the definition, the GPS location has the identifier CFEF31C, and it contains 8 bytes (that is 64 bits). The first 4 bytes represent the Longitude and the second 4 bytes the Latitude. After we convert the Lat and Lon data to decimal, we need to multiply that decimal number by a scaling factor of $10^{-7}$ and add an offset of -210. Since this field is in central Illinois, the latitude always starts with 40 and the longitude with -88 (going west from Greenwich in the UK yields a negative number).
 
 *CFEF31C – Vehicle Position*
@@ -82,11 +82,11 @@ kmlwritepoint([KML_filename], FieldPlots.lat, FieldPlots.lon);
 ```
 7. Find your kml file and double click on it. This will open Google Earth, and if all went well, show the exact coordinates where the machine traveled. If MatLab throws an error in the kmlwritepoint line, that means that the Mapping toolbox is not installed, in that case finish this homework in the computer lab (220).
 
-#Submission
+**Submission**  
 Add a screenshot of the output that you saw in Google Earth to this file. Given in the tex file is the code to add a figure commented out, save the screenshot as AgEngineeringFarmGPS_GoogleEarth.png.
 
-**Link**: [Visit the HM9](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM9](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)  [MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)  [MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
