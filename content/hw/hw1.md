@@ -308,5 +308,5 @@ U_open = R_eq * i_short =
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
 **Link to resource**:  
-[MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
-[LaTex_Guide](../../resources/LaTex_Guide.md)
+[MATLAB Tutorial](https://github.com/ABE425/ABE425/blob/Rongliu/content/resources/MATLAB_Guide.md)  
+[LaTex_Guide](https://github.com/ABE425/ABE425/blob/Rongliu/content/resources/LaTex_Guide.md)
