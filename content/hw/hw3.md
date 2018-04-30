@@ -11,7 +11,7 @@ Due: 2018-02-14
 **NAME:**  
 **HW: Operational Amplifiers.**
 
-#Description
+**Description**
 
 You have a sensor that has a maximum output of 25 Volt, and you want to feed this signal into a data acquisition (DAQ) board with a maximum input in the range ```[0, +10]``` Volt. Design a circuit that matches the sensor to your DAQ board with the following design criteria:
 
@@ -26,8 +26,8 @@ You consider the following three options: For each option, I) explain why each o
 *Design your own circuit (again use only one OpAmp and two resistors).*  
 
 
-**Link**: [Visit the HM3](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM3](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
