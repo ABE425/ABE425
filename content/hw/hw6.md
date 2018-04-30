@@ -13,7 +13,8 @@ Due: 2019-03-5
 
 **Description**
 
-Given is a triangular wave form as shown in Figure. Your job is to find out the ratio between the RMS value of any triangular wave form and its amplitude or U_RMS/U. The only thing you have to assume is that the signal is proportional to time as in ```U(t) = a*t``` where a is a constant. Then you have to calculate the RMS value using: ![figureRMS](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/HW_other/RMS.png) and divide by the Amplitude (which you also have to calculate). _Hint: When you calculate the integral be smart about it, there is a lot of  symmetry in the signal, use that to your advantage._
+Given is a triangular wave form as shown in Figure. Your job is to find out the ratio between the RMS value of any triangular wave form and its amplitude or U_RMS/U. The only thing you have to assume is that the signal is proportional to time as in ```U(t) = a*t``` where a is a constant. Then you have to calculate the RMS value using: ![figureRMS](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/HW_other/RMS.png) and divide by the Amplitude (which you also have to calculate).  
+ _Hint: When you calculate the integral be smart about it, there is a lot of  symmetry in the signal, use that to your advantage._
 
 ![figure](https://github.com/ABE425/data/blob/lab_1/ABE425HMK/HW_RMS_Triangle/TriangularWaveSignal.png)
 
