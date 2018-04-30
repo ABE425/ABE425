@@ -27,10 +27,11 @@ Figure 1 shows the schematic of a high-pass filter. As you can see the resistor 
 
 2. Fill out this table:
 
-|G(jω)    | G(jω)|db   | ø(Phase)|
-|---------|------------|---------|
-|ωτ << 1| | |
-|ωτ >> 1| | |
+|         |G(jω)    | G(jω)|db   | ø(Phase)|
+|---------|------------|---------|---------|
+|ωτ << 1| | | |
+|ωτ = 1| | | |
+|ωτ >> 1| | | |
 
 3. Draw the Bode plot of this transfer function on the back of this page.
 
