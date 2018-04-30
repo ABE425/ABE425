@@ -11,11 +11,11 @@ Due: 2019-03-12
 **NAME:**
 **HW: Mandelbrot Fractal Programming in MatLab**
 
-#Description
+**Description**
 
 The purpose of this homework is to give the student a thorough exercise in MatLab programming, and en passe appreciate the concept of mathematical complexity.
 
-#Introduction
+**Introduction**
 Before fractal geometry was discovered by[Benoit Mandelbrot][https://en.wikipedia.org/wiki/Benoit_Mandelbrot], we only had Euclidian geometry which cannot describe "natural" objects such as mountains, clouds, trees, plants, lungs, artery systems etc. Since agricultural engineering is about connecting living objects to technology, it is only natural (pun intended) to discuss fractals.
 
 [Benoit Mandelbrot][https://en.wikipedia.org/wiki/Benoit_Mandelbrot] is credited with being the first person to visualize mathematical complexity in a spectacular way. The idea is to take a non-linear equation, and iterate it, meaning that you give it a starting value and then calculate a new value by entering this starting value into the equation. Then you take the result of the equation, put it back in and calculate a new value. You keep doing this and check if the value eventually goes to infinity (or out of a preset bound) or if it stays within the bound. You also keep track of how many iterations it took for the value to go out of the bound, you use that to assign a color.
@@ -50,7 +50,7 @@ and:
 
 The constant ```c``` is quite important. If you set this factor to a constant number in the range as shown in Figure, then you get what is known as a Julia Fractal. However, if you set the constant ```c``` equal to the coordinate of the pixel under calculation, then you get the Mandelbrot fractal, which is our aim here.
 
-#Program structure
+**Program structure**
 The variables as shown in Equations(5)and (6) look good in a report, but MatLab cannot read them as such (for instance MatLab does not regard z_n+1 a variable). Therefore we need some representatives. Let's assign _z_x_new_ to ```z_x(n+1)``` and _z_x_old_ to ```z_x(n)``` and _z_y_new_ to ```z_y(n+1)``` and _z_y_old_ to z_y(n). We will write _x_coor_ for c_x and _y_coor_ for ```c_y```.
 
 The program has three major sections that are executed in sequence being 1) Initialization, 2) Calculation and 3) Output (a graph). In the intialization section, you set constants and give them logical names.
@@ -64,18 +64,14 @@ Now we need to go through the whole image starting at the bottom left (_x_min_, 
 
 Inside the hot loop, we need to calculate the absolute value ```|z(n+1)|``` and keep track of for how many iterations it stays withing the limit of 2. Some pixels will stay bounded forever so we need to set a limit to the maximum number of iterations to prevent getting stuck in an infinite loop. Finally we plot the Fractal image using imagesc (which scales it properly).
 
-The complete process is shown in a Nassi-Shneiderman diagram in Figure below
+The complete process is shown in a Nassi-Shneiderman diagram in Figure below shows the Mandelbrot fractal.  
 
 ![fig:MandelbrotNSDiagram](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MandelbrotNSDiagram.png).  
 [MandelbrotNSDiagram][https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MandelbrotNSDiagram.png]
 
-shows the Mandelbrot fractal.
-
-The first thing that should strike you (I hope) is that there is an overwhelming amount of detail, self-similarity and unique areas in the Mandelbrot fractal. The most baffling thing is that all this emerges from iterating a very simple equation! The intuitive idea that a complex object needs a complex underlying mechanism is obviously false! For instance when you see the pattern of the coat of a cat
+The first thing that should strike you (I hope) is that there is an overwhelming amount of detail, self-similarity and unique areas in the Mandelbrot fractal. The most baffling thing is that all this emerges from iterating a very simple equation! The intuitive idea that a complex object needs a complex underlying mechanism is obviously false! For instance when you see the pattern of the coat of a cat Compare a Maine Coon cat (left) with elaborate striping to a solid black cat. One would expect that the striping of the Maine Coon (notice the M on this cat's forehead) would require a large number of genes. That is not the case, even a small number of genes can give rise to enormous differences in phenotype. Complexity can arise from very simple rules.
 
 ![fig:MaineCoon_SolidBlackCat](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MaineCoon_SolidBlackCat.PNG)
-
-Compare a Maine Coon cat (left) with elaborate striping to a solid black cat. One would expect that the striping of the Maine Coon (notice the M on this cat's forehead) would require a large number of genes. That is not the case, even a small number of genes can give rise to enormous differences in phenotype. Complexity can arise from very simple rules.
 
 you would imagine that many genes may be involved to produce this kind of complexity. It turns out that is not the case, only a handful of genes make up the difference between a solid colored cat and a Maine coon (note the M on this cat's forehead).
 
@@ -86,6 +82,6 @@ _(The answer can be found in the Nova documentary "Hunting the hidden dimension"
 
 **Link**: [Visit the HM7](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
