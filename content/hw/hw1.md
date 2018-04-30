@@ -303,9 +303,9 @@ Check:
 U_open = R_eq * i_short =  
 ```
 
-**Link**: _**[VISIT THE HM1]**_(https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-**Submission**:_**[SUBMIT YOUR HOMEWORK HERE]**_()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
 **Link to resource**:
 
