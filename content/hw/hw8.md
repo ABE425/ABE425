@@ -26,7 +26,7 @@ Here is the answer: **YOUR JOB IS TO DERIVE THESE EQUATIONS BASED ON THE ONES GI
 
 **Link**: [Visit the HM8](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)  
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)  
 [MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
