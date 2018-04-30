@@ -11,7 +11,7 @@ Due: 2019-02-28
 **NAME:**  
 **HW: Fourier series of a triangular signal**
 
-#Description
+**Description**
 
 If a signal is given on an interval ```[0, 2pi]```, the Fourier series can be written as:
 
@@ -21,7 +21,7 @@ with coefficients:
 
 ![figure2-4](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/HW_other/Fourier2-4.png)
 
-#Worked example 1
+**Worked example 1**
 
 ![fig:1](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fourierseries/HW_FourierSeries1.png)  
 The figure shows a square wave given on the interval ```[0, 2 pi]```. To calculate the Fourier coefficients, we need to evaluate the integrals above, but you need to be smart about it. Firstly, the coefficient ```c_0``` represents the mean of the signal, and just by looking at the signal you can tell ```c_0``` will be zero. Secondly, as you know, if a signal is even, then only coefficients of cosine will have a value, because the cosine itself is an even function. Vice versa for an odd function where only the sine coefficients will have a value. By the way, some signals are both odd and even, then both sine and cosine coefficients will have a value. Since our function is obviously odd (it is symmetric in the origin) only the sine coefficients will have a value therefore ```a_n = 0```. The values of the sine coefficients can be calculated by evaluating the integral:
@@ -48,7 +48,7 @@ The first two coefficients are 4/pi = 1.2732 (n=1), 4/3*pi = 0.4244 n=3, verify 
 
 The Fourier series approximation of the square wave function using 50 sine coefficients is shown in Figure above. As the approximation of the Fourier series to the square wave becomes better, the peaks at the 'shoulders' will become more and more pronounced. This effect is called the Gibbs phenomenon, and in image processing we call this effect "ringing".
 
-#Worked example 2
+**Worked example 2**
 
 ![fig:HW_FourierSeries4](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fourierseries/HW_FourierSeries4.png).
 shows a saw tooth signal on the interval [0, 2 pi].
@@ -87,7 +87,7 @@ The Fourier series approximation of the sawtooth function using 50 basis functio
 
 ![fig:HW_FourierSeries6](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fourierseries/HW_FourierSeries6.png)
 
-#Your homework starts here:
+**Your homework starts here:**
 
 ![fig:HW_FourierSeries7](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fourierseries/HW_FourierSeries7.png)
 
@@ -100,6 +100,6 @@ Calculate the Fourier coefficients of this function.
 
 **Link**: [Visit the HM5](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
