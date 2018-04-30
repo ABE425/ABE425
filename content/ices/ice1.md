@@ -45,8 +45,8 @@ R_series = R1 + R2 (3)
 ```
 
 Resistors in parallel: When two resistors R1, R2 are placed in parallel, you can replace them with a single resistor with the ”product over sum” value of R1, R2:
-```
+
 \begin{equation} R_parallel = \frac{R1R2}{R1 + R2} \end{equation} (4)
-```
+
 
 ### Solution:
