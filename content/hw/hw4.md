@@ -11,7 +11,7 @@ Due: 2019-02-21
 **NAME:**  
 **HW: Time of Flight Measurement**
 
-#Description
+**Description**
 
 The Time of Flight principle essentially uses the time that passes between two (or more) events to deduce information from a system. For example when we use ultrasonic sensing, we generate a pulse, and wait until we sense a reflected pulse from an object. Then we use the time difference, combined with a known speed of sound at a certain temperature to determine the distance from the sensor to the object. Modern Light Detection and Ranging (LIDAR) devices do the same thing using the speed of light.
 
@@ -55,6 +55,6 @@ Where a is a constant acceleration in ```ms^(-2)```. You do not need to solve fo
 
 **Link**: [Visit the HM4](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
-Submission:[SUBMIT YOUR HOMEWORK HERE]()
+**Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-Link to resource: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
