@@ -16,9 +16,9 @@ Due: 2019-03-12
 The purpose of this homework is to give the student a thorough exercise in MatLab programming, and en passe appreciate the concept of mathematical complexity.
 
 **Introduction**
-Before fractal geometry was discovered by[Benoit Mandelbrot][https://en.wikipedia.org/wiki/Benoit_Mandelbrot], we only had Euclidian geometry which cannot describe "natural" objects such as mountains, clouds, trees, plants, lungs, artery systems etc. Since agricultural engineering is about connecting living objects to technology, it is only natural (pun intended) to discuss fractals.
+Before fractal geometry was discovered by[Benoit Mandelbrot](https://en.wikipedia.org/wiki/Benoit_Mandelbrot), we only had Euclidian geometry which cannot describe "natural" objects such as mountains, clouds, trees, plants, lungs, artery systems etc. Since agricultural engineering is about connecting living objects to technology, it is only natural (pun intended) to discuss fractals.
 
-[Benoit Mandelbrot][https://en.wikipedia.org/wiki/Benoit_Mandelbrot] is credited with being the first person to visualize mathematical complexity in a spectacular way. The idea is to take a non-linear equation, and iterate it, meaning that you give it a starting value and then calculate a new value by entering this starting value into the equation. Then you take the result of the equation, put it back in and calculate a new value. You keep doing this and check if the value eventually goes to infinity (or out of a preset bound) or if it stays within the bound. You also keep track of how many iterations it took for the value to go out of the bound, you use that to assign a color.
+[Benoit Mandelbrot](https://en.wikipedia.org/wiki/Benoit_Mandelbrot) is credited with being the first person to visualize mathematical complexity in a spectacular way. The idea is to take a non-linear equation, and iterate it, meaning that you give it a starting value and then calculate a new value by entering this starting value into the equation. Then you take the result of the equation, put it back in and calculate a new value. You keep doing this and check if the value eventually goes to infinity (or out of a preset bound) or if it stays within the bound. You also keep track of how many iterations it took for the value to go out of the bound, you use that to assign a color.
 
 To calculate the Mandelbrot fractal, we need to use the complex plane that runs from ```[-2.5, 1.5]``` on the real axis and ```[-1.5,1.5]``` in the imaginary axis.
 
@@ -67,7 +67,7 @@ Inside the hot loop, we need to calculate the absolute value ```|z(n+1)|``` and 
 The complete process is shown in a Nassi-Shneiderman diagram in Figure below shows the Mandelbrot fractal.  
 
 ![fig:MandelbrotNSDiagram](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MandelbrotNSDiagram.png).  
-[MandelbrotNSDiagram][https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MandelbrotNSDiagram.png]
+[MandelbrotNSDiagram](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/MandelbrotNSDiagram.png)
 
 The first thing that should strike you (I hope) is that there is an overwhelming amount of detail, self-similarity and unique areas in the Mandelbrot fractal. The most baffling thing is that all this emerges from iterating a very simple equation! The intuitive idea that a complex object needs a complex underlying mechanism is obviously false! For instance when you see the pattern of the coat of a cat Compare a Maine Coon cat (left) with elaborate striping to a solid black cat. One would expect that the striping of the Maine Coon (notice the M on this cat's forehead) would require a large number of genes. That is not the case, even a small number of genes can give rise to enormous differences in phenotype. Complexity can arise from very simple rules.
 
@@ -75,7 +75,7 @@ The first thing that should strike you (I hope) is that there is an overwhelming
 
 you would imagine that many genes may be involved to produce this kind of complexity. It turns out that is not the case, only a handful of genes make up the difference between a solid colored cat and a Maine coon (note the M on this cat's forehead).
 
-Q1: Give the name of the fractal shown in Figure below
+Q1: Give the name of the fractal shown in Figure below  
 ![fig:HW_Q1Fractal](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_fractal/HW_Q1Fractal.png)
 
 _(The answer can be found in the Nova documentary "Hunting the hidden dimension")._
