@@ -1,7 +1,7 @@
 ---
 title: "LaTex_Guide"
 date: 2018-04-19T10:43:25-05:00
-draft: true
+draft: false
 ---
 
 Always write the names of everyone in the lab group in the `\author{STUDENT NAME}` line of code located near the top of the LaTex code.  
