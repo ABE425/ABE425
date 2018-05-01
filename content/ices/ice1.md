@@ -50,9 +50,9 @@ Resistors in parallel: When two resistors R1, R2 are placed in parallel, you can
 ```
 R_parallel = R1R2/{R1 + R2}  (4)
 ```
-![circuit](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/circuit1.png)
+![circuit](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/circuit1.png)
 
 
-**Link:** [ICE 1](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 1](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
 
 **Submission:** [Submission link](?)
