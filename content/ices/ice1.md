@@ -8,13 +8,13 @@ Released 2018-01-25
 
 Due In class
 ```
+## <p align="center">
+In-Class Exercise: Circuit Analysis.
+</p>
+
 **Description**
 
 This is In-Class Exercise 1. Read the instruction and answer the questions below. This assignment is to be submitted it in class.
-
-<p align="center">
-## In-Class Exercise: Circuit Analysis.
-</p>
 
 The DC circuit shown in Figure 1 has both series and parallel resistors, your job is to find the currents i, i1, i2 using Ohm’s Law, Kirchoff’s Voltage Law (KVL), Kirchoff’s Current Law (KCL).
 
