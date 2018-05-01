@@ -1,7 +1,7 @@
 ---
 title: "Lab 1"
 date: 2018-04-17T13:05:05-05:00
-draft: true
+draft: false
 ---
 
 ## Circuit Analysis
@@ -26,4 +26,6 @@ Lab File:
 
 Submission: [Submission link]()
 
-Link to Resource(s): [LaTex Guide](../resources/LaTex_Guide)
+Link to Resource(s): [LaTex_Guide]
+
+[LaTex_Guide]: http://localhost:1313/resources/latex_guide/
