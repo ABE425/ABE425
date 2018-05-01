@@ -25,8 +25,8 @@ You consider the following three options: For each option, I) explain why each o
 *Design your own circuit (again use only one OpAmp and two resistors).*  
 
 
-**Link**: [VISIT THE HM3](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM3](https://localhost:1313/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)
+**Link to resource**: [LaTex_Guide](https://localhost:1313/ABE425/ABE425/blob/master/content/resources/LaTex_Guide.md)
