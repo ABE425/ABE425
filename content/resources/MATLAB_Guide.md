@@ -1,7 +1,7 @@
 ---
 title: "MatLab_Guide"
 date: 2018-04-19T10:43:25-05:00
-draft: true
+draft: false
 ---
 The following lines of code are general purpose commands:
 
