@@ -8,8 +8,7 @@ Released: 2018-02-07
 
 Due: 2018-02-14
 
-**NAME:**  
-**HW: Operational Amplifiers.**
+<center><h1> HW: Operational Amplifiers. </h1></center>
 
 **Description**
 
