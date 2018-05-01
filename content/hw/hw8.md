@@ -8,8 +8,7 @@ Released: 2019-03-12
 
 Due: 2019-03-17
 
-**NAME:**
-**HW:Wien bridge derivation**
+<center><h1> HW: Wien bridge derivation </h1></center>
 
 **Description**
 
