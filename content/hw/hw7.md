@@ -8,8 +8,7 @@ Released: 2019-03-05
 
 Due: 2019-03-12
 
-**NAME:**
-**HW: Mandelbrot Fractal Programming in MatLab**
+<center><h1> Mandelbrot Fractal Programming in MatLab </h1></center>
 
 **Description**
 
