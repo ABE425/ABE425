@@ -38,7 +38,7 @@ The standard CAN message that shows the GPS location of a vehicle, is as follows
 
 Select column A and now perform a text to column operation using tab, space and the colon (special character as delimiters), see Figure below. Be patient, for a large datafile like this it will take a while to do this.
 
-![fig:TextToColumnDelimiters](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_can/TextToColumnDelimiters.PNG).
+![fig:TextToColumnDelimiters](https://localhost:1313/hw/hw_can/TextToColumnDelimiters.PNG).
 
 If you did it right now column L should contain the CAN message identifiers. Now you want to sort everything on column L so we can select only messages that contain GPS data, which have the identifier CFEF31C. MAKE SURE to select ALL columns before you sort on column L, otherwise the GPS data and the identifier are no longer matched.
 
@@ -50,7 +50,7 @@ If you did it right now column L should contain the CAN message identifiers. Now
 
 Now we need to calculate the Latitude and the Longitude from the decimal data records. The basis of our decimal data is 256. Therefore the Latitude will be (assuming the data is in columns W-AD, see Figure below)
 
-![fig:FinalExcelSpreadsheet](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_can/FinalExcelSpreadsheet.PNG)
+![fig:FinalExcelSpreadsheet](https://localhost:1313/hw/hw_can/FinalExcelSpreadsheet.PNG)
 
 Cell AE
 ```
@@ -85,8 +85,8 @@ kmlwritepoint([KML_filename], FieldPlots.lat, FieldPlots.lon);
 **Submission**  
 Add a screenshot of the output that you saw in Google Earth to this file. Given in the tex file is the code to add a figure commented out, save the screenshot as AgEngineeringFarmGPS_GoogleEarth.png.
 
-**Link**: [VISIT THE HM9](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM9](https://localhost:1313/hw/HW_TheveninEquivalents )
 
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-**Link to resource**: [LaTex_Guide](../../resources/LaTex_Guide.md)  [MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
+**Link to resource**: [LaTex_Guide](https://localhost:1313/resources/LaTex_Guide.md)  [MATLAB Tutorial](https://localhost:1313/resources/MATLAB_Guide.mds)  
