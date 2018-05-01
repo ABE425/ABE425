@@ -9,7 +9,9 @@ Released 2018-01-25
 Due in class
 ```
 
-<center><h1> In-Class Exercise: Circuit Analysis. </h1></center>
+<center>
+<h1> In-Class Exercise: Circuit Analysis. </h1>
+</center>
 
 **Description**
 
