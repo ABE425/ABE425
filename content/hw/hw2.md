@@ -8,8 +8,7 @@ Released: 2018-01-30
 
 Due: 2018-02-07
 
-**NAME:**  
-**HW: Derivation of Euler's formula.**
+<center><h1> HW: Derivation of Euler's formula </h1></center>
 
 **Description**
 
