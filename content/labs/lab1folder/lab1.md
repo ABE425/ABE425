@@ -100,16 +100,14 @@ A3:
 
 #### Links:  
 
-[Ohm's Law](https://en.wikipedia.org/wiki/Ohm%27s_law)
+[Ohm's Law](https://en.wikipedia.org/wiki/Ohm%27s_law)  
 [Kirchoff's Laws](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws)
 
 
 Lab File:
 
-Submission: [Submission link]()
+Submission: [Submission link](https://compass2g.illinois.edu/webapps/login/)
 
-Link to Resource(s): [LaTex Guide]
-                     [MatLab Guide]
-
-[LaTex Guide]: http://localhost:1313/resources/latex_guide/
-[MatLab Guide]: http://localhost:1313/resources/matlab_guide/
+**Link to resource**:  
+[MATLAB Tutorial](http://localhost:1313/resources/matlab_guide/)  
+[LaTex_Guide](http://localhost:1313/resources/latex_guide/)

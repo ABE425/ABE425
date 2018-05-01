@@ -1,7 +1,7 @@
 ---
 title: "HW3"
 date: 2018-04-17T13:04:56-05:00
-draft: true
+draft: false
 ---
 
 Released: 2018-02-07
