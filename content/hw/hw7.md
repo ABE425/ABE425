@@ -29,23 +29,23 @@ z(n+1) = z(n)^2 + c
 ```
 where z and c are complex numbers, and n indicates the iteration (look at ```z(n)``` as the previous value of ```z(n+1)```). For the programming it is easiest to split our complex number into a real and imaginary part (although you don't have to, MatLab can deal with complex numbers quite well). However, we would have to use "r" for real and "j" for imaginary, in our case it is much easier to look at the x-axis as the real axis and the y-axis as the imaginary axis. This makes the notation much more in line with a program that would use an x and y axis. Therefore we'll define ```z_r = z_x``` and ```z_j = z_y```. Our complex number z now becomes:
 
-![figute2](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/Fractal2.png)
+![figute2](https://localhost:1313/hw/HW_other/Fractal2.png)
 
 If we substitute this form into the logistics equation we get:
 
-![figute3](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/Fractal3.png)
+![figute3](https://localhost:1313/hw/HW_other/Fractal3.png)
 
 Evaluating the square gives:
 
-![figute4](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/fractal4.png)
+![figute4](https://localhost:1313/hw/HW_other/fractal4.png)
 
 Splitting the real and imaginary parts gives:
 
-![figute5](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/fractal5.png)
+![figute5](https://localhost:1313/hw/HW_other/fractal5.png)
 
 and:
 
-![figute6](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/fractal6.png)
+![figute6](https://localhost:1313/hw/HW_other/fractal6.png)
 
 The constant ```c``` is quite important. If you set this factor to a constant number in the range as shown in Figure, then you get what is known as a Julia Fractal. However, if you set the constant ```c``` equal to the coordinate of the pixel under calculation, then you get the Mandelbrot fractal, which is our aim here.
 
@@ -65,22 +65,22 @@ Inside the hot loop, we need to calculate the absolute value ```|z(n+1)|``` and 
 
 The complete process is shown in a Nassi-Shneiderman diagram in Figure below shows the Mandelbrot fractal.  
 
-![fig:MandelbrotNSDiagram](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/hw_fractal/MandelbrotNSDiagram.png).  
-[MandelbrotNSDiagram](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/hw_fractal/MandelbrotNSDiagram.png)
+![fig:MandelbrotNSDiagram](https://localhost:1313/hw/hw_fractal/MandelbrotNSDiagram.png).  
+[MandelbrotNSDiagram](https://localhost:1313/hw/hw_fractal/MandelbrotNSDiagram.png)
 
 The first thing that should strike you (I hope) is that there is an overwhelming amount of detail, self-similarity and unique areas in the Mandelbrot fractal. The most baffling thing is that all this emerges from iterating a very simple equation! The intuitive idea that a complex object needs a complex underlying mechanism is obviously false! For instance when you see the pattern of the coat of a cat Compare a Maine Coon cat (left) with elaborate striping to a solid black cat. One would expect that the striping of the Maine Coon (notice the M on this cat's forehead) would require a large number of genes. That is not the case, even a small number of genes can give rise to enormous differences in phenotype. Complexity can arise from very simple rules.
 
-![fig:MaineCoon_SolidBlackCat](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/hw_fractal/MaineCoon_SolidBlackCat.PNG)
+![fig:MaineCoon_SolidBlackCat](https://localhost:1313/hw/hw_fractal/MaineCoon_SolidBlackCat.PNG)
 
 you would imagine that many genes may be involved to produce this kind of complexity. It turns out that is not the case, only a handful of genes make up the difference between a solid colored cat and a Maine coon (note the M on this cat's forehead).
 
 Q1: Give the name of the fractal shown in Figure below  
-![fig:HW_Q1Fractal](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/hw_fractal/HW_Q1Fractal.png)
+![fig:HW_Q1Fractal](https://localhost:1313/hw/hw_fractal/HW_Q1Fractal.png)
 
 _(The answer can be found in the Nova documentary "Hunting the hidden dimension")._
 
-**Link**: [Visit the HM7](https://localhost:1313/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [Visit the HM7](https://localhost:1313/hw/HW_TheveninEquivalents )
 
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
-**Link to resource**: [LaTex_Guide](https://localhost:1313/ABE425/ABE425/blob/master/content/resources/LaTex_Guide.mds)
+**Link to resource**: [LaTex_Guide](https://localhost:1313/resources/LaTex_Guide.mds)
