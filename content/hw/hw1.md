@@ -8,7 +8,7 @@ Released: 2018-01-23
 
 Due: 2018-01-30
 
-**HW:Thevenin Equivalents.**
+<center><h1> HW:Thevenin Equivalents. </h1></center>
 
 **Description**
 
