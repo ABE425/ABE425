@@ -8,8 +8,7 @@ Released: 2019-02-14
 
 Due: 2019-02-21
 
-**NAME:**  
-**HW: Time of Flight Measurement**
+<center><h1> HW: Time of Flight Measurement </h1></center>
 
 **Description**
 
