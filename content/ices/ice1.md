@@ -10,7 +10,7 @@ Due in class
 ```
 
 
-<h1> In-Class Exercise: Circuit Analysis. </h1>
+<h1 align="center"> In-Class Exercise: Circuit Analysis. </h1>
 
 
 __**Description**__
