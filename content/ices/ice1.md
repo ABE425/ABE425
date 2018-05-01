@@ -17,6 +17,7 @@ __**Description**__
 
 This is In-Class Exercise 1. Read the instruction and answer the questions below. This assignment is to be submitted it in class.
 
+
 __**Task**__
 
 The DC circuit shown in Figure 1 has both series and parallel resistors, your job is to find the currents i, i1, i2 using Ohm’s Law, Kirchoff’s Voltage Law (KVL), Kirchoff’s Current Law (KCL).
@@ -47,8 +48,8 @@ Resistors in parallel: When two resistors R1, R2 are placed in parallel, you can
 ```
 R_parallel = R1R2/{R1 + R2}  (4)
 ```
+![circuit](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/circuit1.png)
 
-### Solution:
 
 **Link:** [ICE 1](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
 
