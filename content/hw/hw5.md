@@ -8,8 +8,7 @@ Released: 2019-02-21
 
 Due: 2019-02-28
 
-**NAME:**  
-**HW: Fourier series of a triangular signal**
+<center><h1> HW: Fourier series of a triangular signal </h1></center>  
 
 **Description**
 
