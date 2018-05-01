@@ -8,8 +8,7 @@ Released: 2019-02-28
 
 Due: 2019-03-5
 
-**NAME:**  
-**HW: RMS value of a triangular signal.**
+<center><h1> HW: RMS value of a triangular signal </h1></center>
 
 **Description**
 
