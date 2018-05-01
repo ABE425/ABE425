@@ -8,8 +8,7 @@ Released: 2019-03-12
 
 Due: 2019-03-19
 
-**NAME:**
-**HW: Controller Area Network (CAN) data analysis.**
+<center><h1> HW: Controller Area Network (CAN) data analysis. </h1></center>
 
 **Description**  
 
@@ -38,6 +37,7 @@ The standard CAN message that shows the GPS location of a vehicle, is as follows
 1. First open the CAN data file 60519009.xls in Excel format (answer yes on the question whether you want to open it).
 
 Select column A and now perform a text to column operation using tab, space and the colon (special character as delimiters), see Figure below. Be patient, for a large datafile like this it will take a while to do this.
+
 ![fig:TextToColumnDelimiters](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/hw_can/TextToColumnDelimiters.PNG).
 
 If you did it right now column L should contain the CAN message identifiers. Now you want to sort everything on column L so we can select only messages that contain GPS data, which have the identifier CFEF31C. MAKE SURE to select ALL columns before you sort on column L, otherwise the GPS data and the identifier are no longer matched.
