@@ -21,7 +21,7 @@ The procedure of the Thevenin Equivalent method is as follows:
 1. Determine the Open Voltage across a,b (note ground symbol)  
 2. With all sources replaced by their internal resistance, calculate the circuit's Equivalent Resistance that a ohm meter would "see" at a,b.  
 3. Determine the circuit's short current through a-b by drawing in a direct connection between a,b.  
-4. Verify your answer using Ohm's Law: ```open = R_eq * i_short```  
+4. Verify your answer using Ohm's Law: ```U_open = R_eq * i_short```  
 
 As you will see in the three worked examples, you need to determine the equations for the Open Voltage, Equivalent Resistance and the Short Current. To get numerical values, we need to write a simple MatLab program. This is much faster than doing it on paper, and the computer does not make any mistakes. First we need a function called 'parallel' so we can calculate the equivalent value of two resistors in parallel: Copy these two lines in MatLab's editor and save as 'parallel.m'. As you can see it simply takes two resistors and applies the 'product over sum' rule. Now you can use this function in your homework.
 
@@ -52,7 +52,7 @@ Check:
 U_open = R_eq * i_short = (R_2 R_1)\(R_2 + R_1) * U\R_1 = R_2\(R_2+R_1)*U
 ```
 
-Now you write a program (which calls the 'parallel' function) as follows: Remember that every time you want to put two resistors R_1, R_2 in parallel simply call 'parallel(R1,R2)'.
+Now you write a program (which calls the 'parallel' function) as follows: Remember that every time you want to put two resistors ```R_1```, ```R_2``` in parallel simply call 'parallel(R1,R2)'.
 
 The listing of the program for worked example 1 is given here:
 
@@ -127,10 +127,10 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen          = 15
-Req            = 30
-i_short        = 0.5000
-i_short_check  = 0.5000
+Uopen            = 15
+Req              = 30
+i_short          = 0.5000
+i_short_check    = 0.5000
 ```
 
 
@@ -223,10 +223,10 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen 		  	 =42
-Req 			     =50
-i_short 		   =0.8400
-i_short_check  =0.8400
+Uopen 		  	   =42
+Req 			       =50
+i_short 		     =0.8400
+i_short_check    =0.8400
 ```
 
 **Your homework starts here.**
@@ -239,7 +239,7 @@ _**Circuit 4**_
 
 ![Figure6](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin4.PNG)
 
-This circuit has two sources, U_1 and U_2. If you do not like the positive sign of source U_2 at the bottom, simply put it at the top, and write yourself a note that its value is U_2' = -U_2.
+This circuit has two sources, U_1 and U_2. If you do not like the positive sign of source U_2 at the bottom, simply put it at the top, and write yourself a note that its value is ```U_2' = -U_2```.
 
 ```
 U_open  =  
