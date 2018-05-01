@@ -98,6 +98,11 @@ Q3: Show the validity of Kirchoﬀ’s current law which reads: In a node, the a
 
 A3:    
 
+#### Links:  
+
+[Ohm's Law](https://en.wikipedia.org/wiki/Ohm%27s_law)
+[Kirchoff's Laws](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws)
+
 
 Lab File:
 
