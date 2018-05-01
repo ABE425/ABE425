@@ -4,11 +4,11 @@ date: 2018-04-17T13:05:05-05:00
 draft: true
 ---
 
-## Instrument Familiarization
+## Step Response of a First Order System
 
-Lab date: 01/26/2018
+Lab date: 02/02/2018
 
-Due date: 02/02/2018
+Due date: 02/09/2018
 
 
 #### Lab Objectives:  
@@ -24,4 +24,8 @@ Lab File:
 
 Submission: [Submission link]()
 
-Link to Resource(s): [LaTex Guide](../resources/LaTex_Guide)
+Link to Resource(s): [LaTex Guide]
+                     [MatLab Guide]
+
+[LaTex Guide]: http://localhost:1313/resources/latex_guide/
+[MatLab Guide]: http://localhost:1313/resources/matlab_guide/

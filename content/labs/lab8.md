@@ -23,4 +23,8 @@ Lab File:
 
 Submission: [Submission link]()
 
-Link to Resource(s): [LaTex Guide](../resources/LaTex_Guide)
+Link to Resource(s): [LaTex Guide]
+                     [MatLab Guide]
+
+[LaTex Guide]: http://localhost:1313/resources/latex_guide/
+[MatLab Guide]: http://localhost:1313/resources/matlab_guide/
