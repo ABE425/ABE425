@@ -9,7 +9,7 @@ Released 2018-03-19
 Due in class
 ```
 
-<h1> In-Class Exercise: Determine the length of Koch’s snowflake.</h1>
+<h1 align="center"> In-Class Exercise: Determine the length of Koch’s snowflake.</h1>
 
 
 **Description**
@@ -23,11 +23,11 @@ Figure 1 shows the first four iterations of Koch’s snowflake. Your job is to d
 
 **Solution:**
 
-![Figure1](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice8figure1.png)
+![Figure1](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice8figure1.png)
 
 
 
 
-**Link:** [ICE 8](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 8](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_LengthKochSnowflake.pdf)
 
 **Submission:** [Submission link](?)

@@ -24,12 +24,12 @@ This is In-Class Exercise 2. Read the instruction and answer the questions below
 
 Given is the modern (not yet completed) metric system where the Ampere (which was not realizable anyway) is replaced by the standard for Volt (via the Josephson junction) and the Ohm (via the Hall effect, Von Klitzing constant). Also the kg is here a derived unit through the Watt Balance which equalizes the Mechanical and Electrical power. Your assignment is to do the the same thing, **but you can only use English units**. Draw it all in there with pencil, rip out the page and hand it in (don’t forget your name).
 
-![Figure1](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice2unit1.png)
+![Figure1](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice2unit1.png)
 
-![Figure2](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice2unit2.png)
+![Figure2](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice2unit2.png)
 
 
 
-**Link:** [ICE 2](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 2](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_EnglishUnitSystemDerived.pdf)
 
 **Submission:** [Submission link](?)

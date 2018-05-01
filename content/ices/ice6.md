@@ -10,7 +10,7 @@ Due in class
 ```
 
 
-<h1> In-Class Exercise: The tank is 3/4 full.</h1>
+<h1 align="center"> In-Class Exercise: The tank is 3/4 full.</h1>
 
 **Description**
 
@@ -22,13 +22,13 @@ In 2002 there was caller in the radioshow CarTalk, who drove an 18 wheeler with 
 
 Before we find out what z is let’s calculate the area of the quadrant itself where y ranges from [0,1].
 
-![Part1](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice6part1.png)
+![Part1](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice6part1.png)
 
-![part2](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice6part2.png
+![part2](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_MarkQuarterTank.pdf)
 
 **Solution:**
 
 
-**Link:** [ICE 6](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 6](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
 
 **Submission:** [Submission link](?)

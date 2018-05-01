@@ -10,7 +10,7 @@ Due in class
 ```
 
 
-<h1> In-Class Exercise: Schmitt-Trigger.</h1>
+<h1 align="center"> In-Class Exercise: Schmitt-Trigger.</h1>
 
 
 **Description**
@@ -49,8 +49,8 @@ Fill in the table below.
 
 Draw the input signal V−(k) in Figure 2. Then draw the response (output signal VO)) in the figure as well. Cross-hatch the dead band in the figure.
 
-![figure](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice9figure.png)
+![figure](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice9figure.png)
 
-**Link:** [ICE 9](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 9](https://localhost:1313/ABE425/data/blob/lia/ICE/ICE_SchmittTrigger.pdf)
 
 **Submission:** [Submission link](?)

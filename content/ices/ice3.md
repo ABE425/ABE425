@@ -23,16 +23,16 @@ This is In-Class Exercise 3. Read the instruction and answer the questions below
 
 In the continuous case, on the interval [0, 2π], the Fourier series can be written as:
 
-![Equation1](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice3equation%20.png)
+![Equation1](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice3equation%20.png)
 
 Calculate the Fourier Coefficients of the continuous square wave function shown in Fig. 1.
 
 
 
-![Figure1](https://github.com/ABE425/ABE425/blob/ICES/content/ices/photo/ice3figure1.png)
+![Figure1](https://localhost:1313/ABE425/ABE425/blob/ICES/content/ices/photo/ice3figure1.png)
 
 
 
-**Link:** [ICE 3](https://github.com/ABE425/data/blob/lia/ICE/ICE_CircuitAnalysis.pdf)
+**Link:** [ICE 3](https://localhost1313:/ABE425/data/blob/lia/ICE/ICE_FourierCoefficients.pdf)
 
 **Submission:** [Submission link](?)
