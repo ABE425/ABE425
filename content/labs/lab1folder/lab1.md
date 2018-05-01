@@ -86,7 +86,7 @@ VOLTAGE MEASUREMENTS ARE SAFE, SINCE IN THIS MODE THE INTERNAL RESISTANCE OF THE
 #### Questions:  
 Q1: Using Ohm’s law ∆U = iR verify the measured values of the voltages across all resistors
 
-![Equation 1]()
+![Equation 1](http://localhost:1313/labs/lab1folder/Equation1.PNG)
 
 A1:    
 
