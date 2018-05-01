@@ -75,11 +75,10 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen 			    =    8
-Req 			      =    6.6667
-i_short 		    =    1.2000
-
-i_short_check 	=    1.2000
+Uopen 			    = 8
+Req 			      = 6.6667
+i_short 		    = 1.2000
+i_short_check 	= 1.2000
 ```
 
 
@@ -223,10 +222,10 @@ i_short_check  = Uopen / Req
 The output of this program is:
 
 ```
-Uopen 		  	   =42
-Req 			       =50
-i_short 		     =0.8400
-i_short_check    =0.8400
+Uopen 		  	   = 42
+Req 			       = 50
+i_short 		     = 0.8400
+i_short_check    = 0.8400
 ```
 
 **Your homework starts here.**
