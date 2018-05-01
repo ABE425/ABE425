@@ -24,12 +24,12 @@ e^(jt) = cos(t) + j sin(t)
 ```
 **The Taylor series approximation is given as:**
 
-![figure](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/HW_other/tylor.png)  
+![figure](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/tylor.png)  
 
 **The MacLaurin series approximation is a Taylor series approximation**
 where```x_bar = 0```
 
-![figure2](https://github.com/ABE425/ABE425/blob/Rongliu/data/hw/HW_other/mac.png)  
+![figure2](https://localhost:1313/ABE425/ABE425/blob/master/data/hw/HW_other/mac.png)  
 
 Exercise 1: Express ```e^t``` in a MacLaurin series.
 
@@ -53,10 +53,10 @@ Exercise 7: Add the approximations of cosine and sine and multiply every term in
 
 
 
-**Link**: [VISIT THE HM2](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM2](https://localhost:1313/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
 
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
 **Link to resource**:
-[MATLAB Tutorial](../../resources/MATLAB_Guide.md)  
-                [LaTex_Guide](../../resources/LaTex_Guide.md)
+[MATLAB Tutorial](https://localhost:1313/ABE425/ABE425/blob/master/content/resources/MATLAB_Guide.md)  
+                [LaTex_Guide](https://localhost:1313/ABE425/ABE425/blob/master/content/resources/LaTex_Guide.md)
