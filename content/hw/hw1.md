@@ -1,14 +1,16 @@
 ---
 title: "HW1"
 date: 2018-04-17T13:04:56-05:00
-draft: true
+draft: false
 ---
 
 Released: 2018-01-23
 
 Due: 2018-01-30
 
-<center><h1> HW:Thevenin Equivalents. </h1></center>
+<h1 align="center">
+HW:Thevenin Equivalents.
+</h1>
 
 **Description**
 
@@ -30,7 +32,7 @@ function Rout = parallel(R1, R2)
 Rout = R1*R2/(R1 + R2);
 ```
 
-![Figure1](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin1.PNG)
+![Figure1](https://localhost:1313/hw/hw_thevenin/HW_Thevenin1.PNG)
 
 **Worked example 1**
 
@@ -84,7 +86,7 @@ i_short_check 	= 1.2000
 
 **Worked example2**
 
-![Figure2](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin2.PNG)  
+![Figure2](https://localhost:1313/hw/hw_thevenin/HW_Thevenin2.PNG)  
 Figure2 shows a circuit that contains a single current source. To calculate the Open Voltage, you have to recognize that there is no current flowing through resistor ```R_2``` and therefore there is no voltage **DROP** across ```R_2```, in other words, the voltage left and right of the resistor are the same. The voltage drop across ```R_1``` is according to Ohm's law equal to ```i*R_1```, which is then also the voltage at point a.
 
 The equivalent resistance ```R_eq``` is easy to see, since you need to replace the current source with its internal resistance (which is infinite), therefore the ```R_eq``` is the sum of the two resistors (since they are in series.)
@@ -135,12 +137,12 @@ i_short_check    = 0.5000
 
 **Worked example 3**
 
-![Figure3](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin3.PNG)  
+![Figure3](https://localhost:1313/hw/hw_thevenin/HW_Thevenin3.PNG)  
 Figure3 shows the circuit. Here is where things get a litte more difficult, since we now have two sources, a voltage source and a current source. The trick is to use the super position principle to determine the Thevenin equivalent. What this boils down to is that during the calculation of U_open, you calculate the influence of the voltage source (while temporarily replacing the current source by its internal resistance, which is infinite) and then you do the opposite, you calculate the influence of the current source (while temporarily replacing the voltage source by its internal resistance, which is zero). Then you simply add the two influences. You do the exact same thing for the short current i_short. However you do not need to do this for the equivalent resistance, since it is not a source; You calculate the equivalent resistance by replacing both sources by their internal resistance.
 
 For circuits like these, it is best to split it into two parts, 1) where you only have a voltage source and 2) where you only have a current source (see Figures4 and 5). Once you get good at this, you think you can see it in your head, but people are limited in the number of variables they can oversee at once. It is much better to be systematic than to rely on intuition!
 
-![Figure4](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin3_VoltageSource.PNG)
+![Figure4](https://localhost:1313/hw/hw_thevenin/HW_Thevenin3_VoltageSource.PNG)
 
 Figure4 shows the circuit where the current source is replaced by its internal resistance, which is infinite, therefore the whole source simply disappears.
 
@@ -162,7 +164,7 @@ Check:
 U_{open} = R_{eq} * i_{short} = (R_2 + R_3)*U\(R_2+R_3)= U
 ```
 
-![Figure5](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin3_CurrentSource.PNG)
+![Figure5](https://localhost:1313/hw/hw_thevenin/HW_Thevenin3_CurrentSource.PNG)
 Figure5 shows the circuit where the voltage source is replaced by its internal resistance, which is zero, therefore the source is replaced by a wire.
 
 Now we are going to determine the ```U_open```, ```R_eq```, and ```i_short``` of this circuit. Since there is no current flowing through ```R_3```, there is no voltage drop across it, and the voltage at point a is equal to the voltage to the left of resistor ```R_3```. Since all current flows through ```R_2```, the voltage above ```R_2``` is equal to ```i*R_2```.
@@ -236,7 +238,7 @@ _To submit this homework, you need to continue this document, and solve the prob
 
 _**Circuit 4**_
 
-![Figure6](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin4.PNG)
+![Figure6](https://localhost:1313/hw/hw_thevenin/HW_Thevenin4.PNG)
 
 This circuit has two sources, U_1 and U_2. If you do not like the positive sign of source U_2 at the bottom, simply put it at the top, and write yourself a note that its value is ```U_2' = -U_2```.
 
@@ -263,7 +265,7 @@ The output of this program is:
 
 _**Circuit 5**_
 
-![Figure7](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin5.PNG)
+![Figure7](https://localhost:1313/hw/hw_thevenin/HW_Thevenin5.PNG)
 
 This circuit has a voltage and a current source, so you need to evaluate the influence of the two sources separately. Also, if you do not like the current flowing downward, simply reverse its direction and write yourself a note that says i' = -i.
 
@@ -285,7 +287,7 @@ The output of this program is:
 
 _**Circuit 6**_
 
-![Figure8](https://github.com/ABE425/ABE425/blob/master/data/hw/HW_TheveninEquivalents/HW_Thevenin6.PNG)
+![Figure8](https://localhost:1313/hw/hw_thevenin/HW_Thevenin6.PNG)
 
 This circuit has two sources, use the superposition principle.
 
@@ -301,10 +303,10 @@ Check:
 U_open = R_eq * i_short =  
 ```
 
-**Link**: [VISIT THE HM1](https://github.com/ABE425/ABE425/tree/master/data/hw/HW_TheveninEquivalents )
+**Link**: [VISIT THE HM1](https://localhost:1313/hw/HW_TheveninEquivalents )
 
 **Submission**:[SUBMIT YOUR HOMEWORK HERE]()
 
 **Link to resource**:  
-[MATLAB Tutorial](https://github.com/ABE425/ABE425/blob/Rongliu/content/resources/MATLAB_Guide.md)  
-[LaTex_Guide](https://github.com/ABE425/ABE425/blob/Rongliu/content/resources/LaTex_Guide.md)
+[MATLAB Tutorial](https://localhost:1313/resources/MATLAB_Guide.md)  
+[LaTex_Guide](https://localhost:1313/resources/LaTex_Guide.md)
